@@ -43,13 +43,13 @@ const customer = {
   id: 123,
   phoneNumber: "07565918857",
   email: "c.acquahdavis@gmail.com",
-  address: {
-    street: "46 elm green",
+};
+
+customer.address = {street: "46 elm green",
     city: "basildon",
     state: "essex",
-    zipCode: "SS133EB",
-  },
-};
+    zipCode: "SS133EB"};
+
 console.log(`Welcome, ${customer.firstName} ${customer.lastName}`);
 
 const product = {
