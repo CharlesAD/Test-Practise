@@ -62,3 +62,7 @@ const product = {
 let total = product.quantity * product.price;
 
 console.log(`Total: ${total}`);
+
+if total >= 100 (console.log("true"))
+
+else (console.log("false"));
