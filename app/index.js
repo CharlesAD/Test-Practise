@@ -66,3 +66,5 @@ console.log(`Total: ${total}`);
 if total >= 100 (console.log("true"))
 
 else (console.log("false"));
+
+// product.quantity = product.quantity - ; unfinished
