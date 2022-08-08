@@ -50,3 +50,4 @@ const customer = {
     zipCode: "SS133EB",
   },
 };
+console.log(`Welcome, ${customer.firstName} ${customer.lastName}`);
