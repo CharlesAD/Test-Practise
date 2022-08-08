@@ -68,3 +68,5 @@ if total >= 100 (console.log("true"))
 else (console.log("false"));
 
 // product.quantity = product.quantity - ; unfinished
+
+// miss read the question 6 and 7
