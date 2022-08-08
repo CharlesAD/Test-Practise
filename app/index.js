@@ -35,10 +35,18 @@
  * 7. Update `product` to reflect the new quantity. In other words, the new quantity value should be 7 less than whatever you initialized it with.
  */
 
+const { getParseTreeNode } = require("typescript");
+
 const customer = {
   firstName: "Charles",
   lastName: "Acquah-Davis",
   id: 123,
   phoneNumber: "07565918857",
   email: "c.acquahdavis@gmail.com",
+  address: {
+    street: "46 elm green",
+    city: "basildon",
+    state: "essex",
+    zipCode: "SS133EB",
+  },
 };
