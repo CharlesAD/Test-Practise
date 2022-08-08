@@ -51,3 +51,10 @@ const customer = {
   },
 };
 console.log(`Welcome, ${customer.firstName} ${customer.lastName}`);
+
+const product = {
+  name: "Bob",
+  price: 9.99,
+  description: "Really cool",
+  quantity: 10,
+};
