@@ -58,3 +58,7 @@ const product = {
   description: "Really cool",
   quantity: 10,
 };
+
+let total = product.quantity * product.price;
+
+console.log(`Total: ${total}`);
